@@ -123,7 +123,7 @@ async def encod(event):
             return
         event.sender
         if str(event.sender_id) not in OWNER and event.sender_id !=DEV:
-            return await event.reply("**Sorry You're not An Authorised User!**")
+            return await event.reply("**Hey<a href=https://telegra.ph/file/54fbac6ca8c4539c69de7.mp4>,</a> This is a Video/File Encoder Bot, Which can Compress Files by using FFmpeg Codes.\n\n‼️Note: Currently, You're not an Authorised User!!\n• Ask my to get access: @Not_Xenov**")
         if not event.media:
             return
         if hasattr(event.media, "document"):

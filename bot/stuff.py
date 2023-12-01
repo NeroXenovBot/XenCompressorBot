@@ -21,8 +21,8 @@ async def start(event):
         f"**Send me the video which you want to compress.**\n**Uptime: {str(datetime.now() - START_TIME).split('.')[0]}**",
         buttons=[
             [Button.inline("HELP", data="help")],
-            [Button.url('Update', url='t.me/Roofiverse')],
-            [Button.url('Support', url='t.me/Kdramaland_Official')]
+            [Button.url('Update', url='t.me/supernovanetwork')],
+            [Button.url('Support', url='t.me/paradox_chatz_group')]
         ],
     )
 
@@ -48,10 +48,10 @@ async def zylern(event):
 
 async def help(event):
     await event.edit(
-        f"""**To check current ffmpeg code you can use** /getcode\n\n**You can change your ffmpeg code by executing following command.**\n\n`/setcode -preset faster -c:v libx265 -s 1280x720 -x265-params 'bframes=8:psy-rd=1:ref=3:aq-mode=3:aq-strength=0.8:deblock=1,1' -pix_fmt yuv420p -crf 30 -c:a libopus -b:a 32k -c:s copy -map 0 -ac 2 -ab 32k -vbr 2 -level 3.1 -threads 1`\n\n**To set custom thumbnail send me the image.**\n\n**Do /cmds For More**"""
+        f"""**To check current ffmpeg code you can use** /getcode\n\n**You can change your ffmpeg code by executing following command.**\n\n`/setcode -preset faster -c:v libx265 -s 1280x720 -x265-params 'bframes=8:psy-rd=1:ref=3:aq-mode=3:aq-strength=0.8:deblock=1,1' -metadata 'title=Encoded By @Not_Xenov (https://t.me/xenov7x)' -pix_fmt yuv420p -crf 30 -c:a libopus -b:a 32k -c:s copy -map 0 -ac 2 -ab 32k -vbr 2 -level 3.1 -threads 1`\n\n**To set custom thumbnail send me the image.**\n\n**Do /cmds For More**"""
     )
     
 async def ihelp(e):
     await e.reply(
-        f"""**To check current ffmpeg code you can use** /getcode\n\n**You can change your ffmpeg code by executing following command.**\n\n`/setcode -preset faster -c:v libx265 -s 1280x720 -x265-params 'bframes=8:psy-rd=1:ref=3:aq-mode=3:aq-strength=0.8:deblock=1,1' -pix_fmt yuv420p -crf 30 -c:a libopus -b:a 32k -c:s copy -map 0 -ac 2 -ab 32k -vbr 2 -level 3.1 -threads 1`\n\n**To set custom thumbnail send me the image.**\n\n**Do /cmds For More**"""
+        f"""**To check current ffmpeg code you can use** /getcode\n\n**You can change your ffmpeg code by executing following command.**\n\n`/setcode -preset faster -c:v libx265 -s 1280x720 -x265-params 'bframes=8:psy-rd=1:ref=3:aq-mode=3:aq-strength=0.8:deblock=1,1' -metadata 'title=Encoded By @Not_Xenov (https://t.me/xenov7x)' -pix_fmt yuv420p -crf 30 -c:a libopus -b:a 32k -c:s copy -map 0 -ac 2 -ab 32k -vbr 2 -level 3.1 -threads 1`\n\n**To set custom thumbnail send me the image.**\n\n**Do /cmds For More**"""
     )

@@ -34,7 +34,7 @@ async def _(e):
 @bot.on(events.NewMessage(pattern="/getcode"))
 async def _(e):
     if str(e.sender_id) not in OWNER and e.sender_id !=DEV:
-        return e.reply("**Currently, You're not an Authorised User!!\n\n<a href="https://telegra.ph/file/b937f3f2b6509a10850f2.jpg>○</a>Ask my Owner to get access: @Not_Xenov**")
+        return e.reply("**Currently, You're not an Authorised User!!\n\n<a href="https://telegra.ph/file/b937f3f2b6509a10850f2.jpg">○</a>Ask my Owner to get access: @Not_Xenov**")
     await getcode(e)
 
 

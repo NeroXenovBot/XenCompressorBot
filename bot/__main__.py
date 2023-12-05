@@ -20,91 +20,91 @@ except Exception as er:
 @bot.on(events.NewMessage(pattern="/start"))
 async def _(e):
     if str(e.sender_id) not in OWNER and e.sender_id !=DEV:
-        return e.reply("**Hey<a href=https://telegra.ph/file/54fbac6ca8c4539c69de7.mp4>,</a> This is a Video/File Encoder Bot, Which can Compress Files by using FFmpeg Codes.\n\n‼️Note: Currently, You're not an Authorised User!!\n• Ask my to get access: @Not_Xenov**")
+        return e.reply("**Hey, This is a Video/File Encoder Bot, Which can Compress Files by using FFmpeg Codes.\n\n‼️Note: Currently, You're not an Authorised User!!\n\n<a href="https://telegra.ph/file/b937f3f2b6509a10850f2.jpg>○</a> Ask my Owner to get access: @Not_Xenov**")
     await start(e)
 
 
 @bot.on(events.NewMessage(pattern="/setcode"))
 async def _(e):
     if str(e.sender_id) not in OWNER and e.sender_id !=DEV:
-        return e.reply("**Hey<a href=https://telegra.ph/file/54fbac6ca8c4539c69de7.mp4>,</a> This is a Video/File Encoder Bot, Which can Compress Files by using FFmpeg Codes.\n\n‼️Note: Currently, You're not an Authorised User!!\n• Ask my to get access: @Not_Xenov**")
+        return e.reply("**Hey, This is a Video/File Encoder Bot, Which can Compress Files by using FFmpeg Codes.\n\n‼️Note: Currently, You're not an Authorised User!!\n\n<a href="https://telegra.ph/file/b937f3f2b6509a10850f2.jpg>○</a> Ask my Owner to get access: @Not_Xenov**")
     await coding(e)
 
 
 @bot.on(events.NewMessage(pattern="/getcode"))
 async def _(e):
     if str(e.sender_id) not in OWNER and e.sender_id !=DEV:
-        return e.reply("**Hey<a href=https://telegra.ph/file/54fbac6ca8c4539c69de7.mp4>,</a> This is a Video/File Encoder Bot, Which can Compress Files by using FFmpeg Codes.\n\n‼️Note: Currently, You're not an Authorised User!!\n• Ask my to get access: @Not_Xenov**")
+        return e.reply("**Hey, This is a Video/File Encoder Bot, Which can Compress Files by using FFmpeg Codes.\n\n‼️Note: Currently, You're not an Authorised User!!\n\n<a href="https://telegra.ph/file/b937f3f2b6509a10850f2.jpg>○</a> Ask my Owner to get access: @Not_Xenov**")
     await getcode(e)
 
 
 @bot.on(events.NewMessage(pattern="/showthumb"))
 async def _(e):
     if str(e.sender_id) not in OWNER and e.sender_id !=DEV:
-        return e.reply("**Hey<a href=https://telegra.ph/file/54fbac6ca8c4539c69de7.mp4>,</a> This is a Video/File Encoder Bot, Which can Compress Files by using FFmpeg Codes.\n\n‼️Note: Currently, You're not an Authorised User!!\n• Ask my to get access: @Not_Xenov**")
+        return e.reply("**Hey, This is a Video/File Encoder Bot, Which can Compress Files by using FFmpeg Codes.\n\n‼️Note: Currently, You're not an Authorised User!!\n\n<a href="https://telegra.ph/file/b937f3f2b6509a10850f2.jpg>○</a> Ask my Owner to get access: @Not_Xenov**")
     await getthumb(e)
 
 
 @bot.on(events.NewMessage(pattern="/logs"))
 async def _(e):
     if str(e.sender_id) not in OWNER and e.sender_id !=DEV:
-        return e.reply("**Hey<a href=https://telegra.ph/file/54fbac6ca8c4539c69de7.mp4>,</a> This is a Video/File Encoder Bot, Which can Compress Files by using FFmpeg Codes.\n\n‼️Note: Currently, You're not an Authorised User!!\n• Ask my to get access: @Not_Xenov**")
+        return e.reply("**Hey, This is a Video/File Encoder Bot, Which can Compress Files by using FFmpeg Codes.\n\n‼️Note: Currently, You're not an Authorised User!!\n\n<a href="https://telegra.ph/file/b937f3f2b6509a10850f2.jpg>○</a> Ask my Owner to get access: @Not_Xenov**")
     await getlogs(e)
 
 
 @bot.on(events.NewMessage(pattern="/cmds"))
 async def _(e):
     if str(e.sender_id) not in OWNER and e.sender_id !=DEV:
-        return e.reply("**Hey<a href=https://telegra.ph/file/54fbac6ca8c4539c69de7.mp4>,</a> This is a Video/File Encoder Bot, Which can Compress Files by using FFmpeg Codes.\n\n‼️Note: Currently, You're not an Authorised User!!\n• Ask my to get access: @Not_Xenov**")
+        return e.reply("**Hey, This is a Video/File Encoder Bot, Which can Compress Files by using FFmpeg Codes.\n\n‼️Note: Currently, You're not an Authorised User!!\n\n<a href="https://telegra.ph/file/b937f3f2b6509a10850f2.jpg>○</a> Ask my Owner to get access: @Not_Xenov**")
     await zylern(e)
 
 
 @bot.on(events.NewMessage(pattern="/ping"))
 async def _(e):
     if str(e.sender_id) not in OWNER and e.sender_id !=DEV:
-        return e.reply("**Hey<a href=https://telegra.ph/file/54fbac6ca8c4539c69de7.mp4>,</a> This is a Video/File Encoder Bot, Which can Compress Files by using FFmpeg Codes.\n\n‼️Note: Currently, You're not an Authorised User!!\n• Ask my to get access: @Not_Xenov**")
+        return e.reply("**Hey, This is a Video/File Encoder Bot, Which can Compress Files by using FFmpeg Codes.\n\n‼️Note: Currently, You're not an Authorised User!!\n\n<a href="https://telegra.ph/file/b937f3f2b6509a10850f2.jpg>○</a> Ask my Owner to get access: @Not_Xenov**")
     await up(e)
 
 
 @bot.on(events.NewMessage(pattern="/sysinfo"))
 async def _(e):
     if str(e.sender_id) not in OWNER and e.sender_id !=DEV:
-        return e.reply("**Hey<a href=https://telegra.ph/file/54fbac6ca8c4539c69de7.mp4>,</a> This is a Video/File Encoder Bot, Which can Compress Files by using FFmpeg Codes.\n\n‼️Note: Currently, You're not an Authorised User!!\n• Ask my to get access: @Not_Xenov**")
+        return e.reply("**Hey, This is a Video/File Encoder Bot, Which can Compress Files by using FFmpeg Codes.\n\n‼️Note: Currently, You're not an Authorised User!!\n\n<a href="https://telegra.ph/file/b937f3f2b6509a10850f2.jpg>○</a> Ask my Owner to get access: @Not_Xenov**")
     await sysinfo(e)
 
 
 @bot.on(events.NewMessage(pattern="/leech"))
 async def _(e):
     if str(e.sender_id) not in OWNER and e.sender_id !=DEV:
-        return e.reply("**Hey<a href=https://telegra.ph/file/54fbac6ca8c4539c69de7.mp4>,</a> This is a Video/File Encoder Bot, Which can Compress Files by using FFmpeg Codes.\n\n‼️Note: Currently, You're not an Authorised User!!\n• Ask my to get access: @Not_Xenov*")
+        return e.reply("**Hey, This is a Video/File Encoder Bot, Which can Compress Files by using FFmpeg Codes.\n\n‼️Note: Currently, You're not an Authorised User!!\n\n<a href="https://telegra.ph/file/b937f3f2b6509a10850f2.jpg>○</a> Ask my Owner to get access: @Not_Xenov**")
     await dl_link(e)
 
 
 @bot.on(events.NewMessage(pattern="/help"))
 async def _(e):
     if str(e.sender_id) not in OWNER and e.sender_id !=DEV:
-        return e.reply("**Hey<a href=https://telegra.ph/file/54fbac6ca8c4539c69de7.mp4>,</a> This is a Video/File Encoder Bot, Which can Compress Files by using FFmpeg Codes.\n\n‼️Note: Currently, You're not an Authorised User!!\n• Ask my to get access: @Not_Xenov**")
+        return e.reply("**Hey, This is a Video/File Encoder Bot, Which can Compress Files by using FFmpeg Codes.\n\n‼️Note: Currently, You're not an Authorised User!!\n\n<a href="https://telegra.ph/file/b937f3f2b6509a10850f2.jpg>○</a> Ask my Owner to get access: @Not_Xenov**")
     await ihelp(e)
 
 
 @bot.on(events.NewMessage(pattern="/renew"))
 async def _(e):
     if str(e.sender_id) not in OWNER and e.sender_id !=DEV:
-        return e.reply("**Hey<a href=https://telegra.ph/file/54fbac6ca8c4539c69de7.mp4>,</a> This is a Video/File Encoder Bot, Which can Compress Files by using FFmpeg Codes.\n\n‼️Note: Currently, You're not an Authorised User!!\n• Ask my to get access: @Not_Xenov**")
+        return e.reply("**Hey, This is a Video/File Encoder Bot, Which can Compress Files by using FFmpeg Codes.\n\n‼️Note: Currently, You're not an Authorised User!!\n\n<a href="https://telegra.ph/file/b937f3f2b6509a10850f2.jpg>○</a> Ask my Owner to get access: @Not_Xenov**")
     await renew(e)
 
 
 @bot.on(events.NewMessage(pattern="/clear"))
 async def _(e):
     if str(e.sender_id) not in OWNER and e.sender_id !=DEV:
-        return e.reply("**Hey<a href=https://telegra.ph/file/54fbac6ca8c4539c69de7.mp4>,</a> This is a Video/File Encoder Bot, Which can Compress Files by using FFmpeg Codes.\n\n‼️Note: Currently, You're not an Authorised User!!\n• Ask my to get access: @Not_Xenov**")
+        return e.reply("**Hey, This is a Video/File Encoder Bot, Which can Compress Files by using FFmpeg Codes.\n\n‼️Note: Currently, You're not an Authorised User!!\n\n<a href="https://telegra.ph/file/b937f3f2b6509a10850f2.jpg>○</a> Ask my Owner to get access: @Not_Xenov**")
     await clearqueue(e)
 
 
 @bot.on(events.NewMessage(pattern="/speed"))
 async def _(e):
     if str(e.sender_id) not in OWNER and e.sender_id !=DEV:
-        return e.reply("**Hey<a href=https://telegra.ph/file/54fbac6ca8c4539c69de7.mp4>,</a> This is a Video/File Encoder Bot, Which can Compress Files by using FFmpeg Codes.\n\n‼️Note: Currently, You're not an Authorised User!!\n• Ask my to get access: @Not_Xenov**")
+        return e.reply("**Hey, This is a Video/File Encoder Bot, Which can Compress Files by using FFmpeg Codes.\n\n‼️Note: Currently, You're not an Authorised User!!\n\n<a href="https://telegra.ph/file/b937f3f2b6509a10850f2.jpg>○</a> Ask my Owner to get access: @Not_Xenov**")
     await test(e)
     
     
@@ -139,7 +139,7 @@ async def _(e):
 @bot.on(events.NewMessage(incoming=True))
 async def _(event):
         if str(event.sender_id) not in OWNER and event.sender_id !=DEV:
-            return await event.reply_text("**Hey<a href=https://telegra.ph/file/54fbac6ca8c4539c69de7.mp4>,</a> This is a Video/File Encoder Bot, Which can Compress Files by using FFmpeg Codes.\n\n‼️Note: Currently, You're not an Authorised User!!\n• Ask my to get access: @Not_Xenov**")
+            return await event.reply_text("**Hey, This is a Video/File Encoder Bot, Which can Compress Files by using FFmpeg Codes.\n\n‼️Note: Currently, You're not an Authorised User!!\n\n<a href="https://telegra.ph/file/b937f3f2b6509a10850f2.jpg>○</a> Ask my Owner to get access: @Not_Xenov**")
         if not event.photo:
             return
         os.system("rm thumb.jpg")
